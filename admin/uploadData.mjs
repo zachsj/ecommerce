@@ -1,4 +1,4 @@
-/* import admin from "firebase-admin";
+import admin from "firebase-admin";
 import serviceAccount from "../admin/firebase-service-account.json" assert { type: "json" };
 
 // Import individual datasets
@@ -82,4 +82,4 @@ const uploadData = async () => {
     }
 };
 
-uploadData(); */
+uploadData();
