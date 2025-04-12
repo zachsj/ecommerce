@@ -1,0 +1,25 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "Admin data backup for ecommerce app",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase": "^11.6.0",
+    "fs": "0.0.1-security",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^24.4.0",
+    "react-multi-carousel": "^2.8.5",
+    "stripe": "^17.7.0"
+  }
+}
