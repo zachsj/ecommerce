@@ -24,7 +24,9 @@ dist-ssr
 *.sw?
 
 # Environment variables
-.env
+client/.env
+admin/.env
+
 
 # Firebase service account file
-firebase-service-account.json
+admin/firebase-service-account.json
