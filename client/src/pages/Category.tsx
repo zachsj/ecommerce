@@ -1,6 +1,6 @@
 //This is the page you see when you click on a Category
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { config } from "../../config";
 import { getData } from "../lib";
