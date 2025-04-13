@@ -29,8 +29,8 @@ router.post("/checkout", async (req, res) => {
       line_items: extractingItems,
       mode: "payment",
       success_url:
-        "https://ecommerce-iota-five-33.vercel.app/success?session_id={CHECKOUT_SESSION_ID}", //http://localhost:5173/
-      cancel_url: "https://ecommerce-iota-five-33.vercel.app/cancel",
+        "https://ecommerce-zyxg-zachjs-projects.vercel.app/success?session_id={CHECKOUT_SESSION_ID}", //http://localhost:5173/
+      cancel_url: "https://ecommerce-zyxg-zachjs-projects.vercel.app/cancel",
       metadata: {
         email,
       },
