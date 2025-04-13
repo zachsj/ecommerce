@@ -21,7 +21,7 @@ const UserInfo = ({ currentUser }: UserTypes) => {
           />
           <div className="text-start flex-1">
             <h2 className="text-xl font-bold tracking-tight sm:text-4xl">
-              Welcome back, dear{" "}
+              Welcome back, {" "}
               <span className="underline underline-offset-2 decoration-[1px] font-medium">
                 {currentUser?.firstName} {currentUser?.lastName}
               </span>
