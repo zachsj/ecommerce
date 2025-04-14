@@ -11,7 +11,7 @@ const checkConfig = (server: string): Config | {} => {
   switch (server) {
     case "production":
       config = {
-        baseUrl: "https://ecommerce-iota-five-33.vercel.app",
+        baseUrl: "https://admin-gadgetssuperstore.vercel.app",
       };
       break;
     case "local":
