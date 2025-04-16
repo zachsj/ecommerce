@@ -29,8 +29,8 @@ router.post("/checkout", async (req, res) => {
       line_items: extractingItems,
       mode: "payment",
       success_url:
-        "https://gadgetssuperstore.vercel.app/success?session_id={CHECKOUT_SESSION_ID}", //http://localhost:5173/  https://gadgetssuperstore.vercel.app
-      cancel_url: "https://gadgetssuperstore.vercel.app/cancel",
+        "https://localhost:5173/success?session_id={CHECKOUT_SESSION_ID}", //http://localhost:5173/  https://gadgetssuperstore.vercel.app
+      cancel_url: "https://localhost:5173/cancel",
       metadata: {
         email,
       },

@@ -25,7 +25,7 @@ const checkConfig = (server: string): Config | {} => {
   return config;
 };
 /* This variable sets the environment to "local", meaning the function will return the baseUrl for local development. */
-export const selectServer = "production";  //change to local for local host
+export const selectServer = "local";  //change to local for local host
 /* Get and Export the Config. Calls checkConfig(selectServer), which evaluates to: { baseUrl: "http://localhost:8000" }
 The as Config type assertion tells TypeScript to treat the result as a Config object, even if it could technically return {} */
 export const config = checkConfig(selectServer) as Config;

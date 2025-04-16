@@ -16,8 +16,10 @@ import fs from "fs";
 import path from "path";
 
 // Dynamically import Firebase credentials
-const serviceAccount = JSON.parse(fs.readFileSync(path.resolve('../admin/firebase-service-account.json'), 'utf8'));
-//const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+const serviceAccount = process.env.FIREBASE_SERVICE_ACCOUNT
+  ? JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT)
+  : JSON.parse(fs.readFileSync(path.resolve('../admin/firebase-service-account.json'), 'utf8'));
+
 
 // Initialize Firebase Admin SDK if it's not already initialized
 if (!admin.apps.length) {
