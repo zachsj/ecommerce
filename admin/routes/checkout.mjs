@@ -24,13 +24,17 @@ router.post("/checkout", async (req, res) => {
       },
     }));
 
+    const isLocal = process.env.NODE_ENV !== "production";
+    const baseUrl = isLocal
+      ? "https://localhost:5173"
+      : "https://gadgetssuperstore.vercel.app";
+
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       line_items: extractingItems,
       mode: "payment",
-      success_url:
-        "https://localhost:5173/success?session_id={CHECKOUT_SESSION_ID}", //http://localhost:5173/  https://gadgetssuperstore.vercel.app
-      cancel_url: "https://localhost:5173/cancel",
+      success_url: `${baseUrl}/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${baseUrl}/cancel`,
       metadata: {
         email,
       },
