@@ -36,7 +36,7 @@ const Categories = () => {
         </div>
         <div className="w-full h-[1px] bg-gray-200 mt-3" />
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-7">
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-7">
         {categories.map((item: CategoryProps) => (
           <Link
             to={`/category/${item?._base}`}
@@ -46,10 +46,24 @@ const Categories = () => {
             <img
               src={item?.image}
               alt="categoryImage"
-              className="w-full h-auto rounded-md group-hover:scale-110 duration-300"
+              className="w-full h-auto rounded-md transition-transform duration-300 group-hover:scale-110"
+              onTouchStart={(e) => {
+                const el = e.currentTarget;
+
+                // Temporarily add the scale class
+                el.classList.add("scale-110");
+
+                // Force reflow so it can be re-triggered
+                void el.offsetWidth;
+
+                // Remove after animation duration
+                setTimeout(() => {
+                  el.classList.remove("scale-110");
+                }, 300);
+              }}
             />
-            <div className="absolute bottom-3 w-full text-center">
-              <p className="text-sm md:text-base font-bold">{item?.name}</p>
+            <div className="absolute bottom-1 md:bottom-3 w-full text-center">
+              <p className="text-xs sm:text-sm md:text-base font-bold">{item?.name}</p>
             </div>
           </Link>
         ))}
