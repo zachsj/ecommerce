@@ -51,6 +51,20 @@ const ProductCard = ({ item, setSearchText }: Props) => {
           src={item?.images[0]}
           alt="productImage"
           className="w-full h-full rounded-md object-cover group-hover:scale-110 duration-300"
+          onTouchStart={(e) => {
+            const el = e.currentTarget;
+
+            // Temporarily add the scale class
+            el.classList.add("scale-110");
+
+            // Force reflow so it can be re-triggered
+            void el.offsetWidth;
+
+            // Remove after animation duration
+            setTimeout(() => {
+              el.classList.remove("scale-110");
+            }, 300);
+          }}
         />
         <ProductCardSideNav product={item} /> {/* you see this when hovering on the image on right side, favs etc. */}
       </div>

@@ -7,7 +7,7 @@ import {
   Transition,
 } from "@headlessui/react";
 import { FaChevronDown } from "react-icons/fa";
-import { FiShoppingBag, FiStar, FiUser } from "react-icons/fi";
+import { FiShoppingBag, FiStar, FiUser, FiMenu, FiX } from "react-icons/fi";
 import { IoClose, IoSearchOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { logo } from "../assets";
@@ -32,7 +32,9 @@ const Header = () => {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { cartProduct, favoriteProduct, currentUser } = store();
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   useEffect(() => {
     const fetchData = async () => {
       const endpoint = `${config?.baseUrl}/products`;
@@ -69,11 +71,19 @@ const Header = () => {
   return (
     <div className="w-full bg-whiteText md:sticky md:top-0 z-50">
       <div className="max-w-screen-xl mx-auto h-20 flex items-center justify-between px-4 lg:px-0">
+        <div className="md:hidden">
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="text-2xl p-0 focus:outline-none"
+          >
+            {isMobileMenuOpen ? <FiX /> : <FiMenu />}
+          </button>
+        </div>
         {/* Logo */}
         <Link to={"/"}>
           <img src={logo} alt="logo" className="w-42 opacity-95 rounded-md" />
         </Link>
-        {/* SearchBar */}
+        {/* Search Bar */}
         <div className="hidden md:inline-flex max-w-3xl w-full relative">
           <input
             type="text"
@@ -91,6 +101,34 @@ const Header = () => {
             <IoSearchOutline className="absolute top-2.5 right-4 text-xl" />
           )}
         </div>
+        {/* Mobile Search Icon */}
+        <div className="md:hidden flex items-center">
+          {isSearchOpen ? (
+            <div className="relative">
+              <input
+                type="text"
+                onChange={(e) => setSearchText(e.target.value)}
+                value={searchText}
+                autoFocus
+                placeholder="Search..."
+                className="w-48 rounded-full text-sm px-4 py-1 shadow-sm ring-1 ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-darkText transition-all"
+              />
+              <IoClose
+                onClick={() => {
+                  setIsSearchOpen(false);
+                  setSearchText("");
+                }}
+                className="absolute top-1.5 right-2 text-lg text-gray-500 hover:text-red-500 cursor-pointer"
+              />
+            </div>
+          ) : (
+            <IoSearchOutline
+              onClick={() => setIsSearchOpen(true)}
+              className="text-2xl text-gray-700 hover:text-darkText cursor-pointer"
+            />
+          )}
+        </div>
+
         {/* Search product will go here */}
         {searchText && (
           <div className="absolute left-0 top-20 w-full mx-auto max-h-[500px] px-10 py-5 bg-white z-20 overflow-y-scroll text-black shadow-lg shadow-skyText scrollbar-hide">
@@ -117,7 +155,7 @@ const Header = () => {
         )}
 
         {/* Menubar */}
-        <div className="flex items-center gap-x-6 text-2xl">
+        <div className="flex items-center gap-x-3 md:gap-x-6 text-xl md:text-2xl">
           <Link to={"/profile"}>
             {currentUser ? (
               <img
@@ -190,9 +228,24 @@ const Header = () => {
             </Link>
           ))}
         </Container>
+        {isMobileMenuOpen && (
+          <div className="md:hidden px-4 pb-4 space-y-2 bg-darkText text-whiteText">
+            {bottomNavigation.map(({ title, link }) => (
+              <Link
+                to={link}
+                key={title}
+                onClick={() => setIsMobileMenuOpen(false)} // closes menu on nav click
+                className="block text-sm font-semibold uppercase"
+              >
+                {title}
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
 };
 
 export default Header;
+
