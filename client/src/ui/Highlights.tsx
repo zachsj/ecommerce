@@ -6,7 +6,9 @@ import { HighlightsType } from "../../type";
 import { Link } from "react-router-dom";
 
 const Highlights = () => {
-  const [highlightsData, setHighlightsData] = useState([]);
+  const [highlightsData, setHighlightsData] = useState<HighlightsType[]>([]);
+  const [touchedIndex, setTouchedIndex] = useState<number | null>(null);
+
   useEffect(() => {
     const fetchData = async () => {
       const endpoint = `${config?.baseUrl}/highlights`;
@@ -20,15 +22,26 @@ const Highlights = () => {
 
     fetchData();
   }, []);
+
+  // Optional: Reset hover after 1 second
+  useEffect(() => {
+    if (touchedIndex !== null) {
+      const timer = setTimeout(() => setTouchedIndex(null), 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [touchedIndex]);
+
   return (
     <Container className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {highlightsData.map((item: HighlightsType) => (
+      {highlightsData.map((item, index) => (
         <div
           key={item?.id}
           className="relative h-60 rounded-lg shadow-md cursor-pointer overflow-hidden group"
+          onTouchStart={() => setTouchedIndex(index)}
         >
           <div
-            className="absolute inset-0 bg-cover bg-center rounded-lg transition-transform duration-300 group-hover:scale-110"
+            className={`absolute inset-0 bg-cover bg-center rounded-lg transition-transform duration-300 ${touchedIndex === index ? "scale-110" : "group-hover:scale-110"
+              }`}
             style={{
               backgroundImage: `url(${item?.image})`,
               color: item?.color,
