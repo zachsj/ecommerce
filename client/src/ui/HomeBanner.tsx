@@ -5,22 +5,23 @@ import LinkButton from "./LinkButton";
 const HomeBanner = () => {
   return (
     <Container className="relative py-5 overflow-hidden">
-      <div className="relative">
+      {/* Image container with responsive height */}
+      <div className="relative w-full h-[240px] md:h-[400px] lg:h-[600px] rounded-md overflow-hidden">
         <img
           src={homeBanner}
           alt="homeBanner"
-          className="w-full h-full object-cover rounded-md"
+          className="w-full h-full object-cover"
         />
-        <div className="w-full h-full absolute top-0 left-0 bg-black/10" />
-      </div>
-      <div className="absolute inset-0 flex flex-col justify-center px-5 py-140">
-        {/* <h2 className="text-xl md:text-4xl lg:text-6xl text-whiteText font-bold">
-          Mi Air Purifier
-        </h2> */}
-        <p className="text-base md:text-lg font-semibold leading-6 text-whiteText/90 max-w-[250px] mt-4">
-          The latest tech gift you’ve been hoping for is right here..
-        </p>
-        <LinkButton className="w-44 flex items-center justify-center bg-whiteText text-darkText hover:bg-darkText hover:text-whiteText duration-200 mt-4" />
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/10" />
+
+        {/* Text and Button at bottom-left */}
+        <div className="absolute bottom-1 left-4 z-10 max-w-[50%] md:bottom-4 md:max-w-[250px]">
+          <p className="text-xs md:text-lg font-semibold leading-[1.1] md:leading-6 text-whiteText/90 mt-2 md:mt-0">
+            The latest tech gift you’ve been hoping for right here..
+          </p>
+          <LinkButton className="mt-3 w-32 md:w-44 text-xs md:text-sm flex items-center justify-center bg-whiteText text-darkText hover:bg-darkText hover:text-whiteText duration-200" />
+        </div>
       </div>
     </Container>
   );
