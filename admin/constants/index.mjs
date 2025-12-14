@@ -16,7 +16,7 @@ export const categories = [
   {
     _id: 1001,
     name: "TV & Audio",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-tv-audio.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-cameras-audio.webp?alt=media&token=7267b1e7-f7cb-4578-86a2-f8b64282edcd",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvAndAudio",
@@ -24,7 +24,7 @@ export const categories = [
   {
     _id: 1002,
     name: "TV Box",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-tv-box.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-cell-phone.webp?alt=media&token=33ee71ee-7c95-4fc4-a165-17bd8241fb8f",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvBox",
@@ -144,7 +144,7 @@ export const highlightsProducts = [
 export const blogsData = [
   {
     _id: 4001,
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Blogs%2Fblog3.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog1.webp?alt=media&token=e96c3b4a-39f7-44cc-8775-106cab73e2dc",
     title: "iPhone 15 rear camera design will be available",
     _base: "Technology",
     description:
@@ -152,7 +152,7 @@ export const blogsData = [
   },
   {
     _id: 4002,
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Blogs%2Fblog1.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog2.webp?alt=media&token=fcfbf8d7-f4ab-4a6e-87f9-b2f7ffb626b3",
     title: "Setup your surround sound speaker",
     _base: "Life style",
     description:
@@ -160,7 +160,7 @@ export const blogsData = [
   },
   {
     _id: 4003,
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Blogs%2Fblog2.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog3.webp?alt=media&token=29bbc0dc-1e7a-48cf-a516-aa6053941f66",
     title: "Hook up a receiver for your home theater",
     _base: "Technology",
     description:
