@@ -4,7 +4,7 @@ import Label from "./Label";
 import { MdPhotoLibrary } from "react-icons/md";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth, db } from "../lib/firebase";
-//import upload from "../lib/upload";
+import upload from "../lib/upload";
 import { doc, setDoc } from "firebase/firestore";
 import Login from "./Login";
 
@@ -34,9 +34,9 @@ const Registration = () => {
       setLoading(true);
       const res = await createUserWithEmailAndPassword(auth, email, password);
       let imageUrl = null;
-      //if (avatar && avatar?.file) {
-      //  imageUrl = await upload(avatar?.file);
-      //}
+      if (avatar && avatar?.file) {
+        imageUrl = await upload(avatar?.file);
+      }
       await setDoc(doc(db, "users", res.user.uid), {
         firstName,
         lastName,
