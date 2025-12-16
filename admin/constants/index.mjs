@@ -16,7 +16,7 @@ export const categories = [
   {
     _id: 1001,
     name: "TV & Audio",
-    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-cameras-audio.webp?alt=media&token=7267b1e7-f7cb-4578-86a2-f8b64282edcd",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-tv-audio.webp?alt=media&token=1c6b4f8d-ae75-4928-86bb-8ca70b4ede19",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvAndAudio",
@@ -24,7 +24,7 @@ export const categories = [
   {
     _id: 1002,
     name: "TV Box",
-    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-cell-phone.webp?alt=media&token=33ee71ee-7c95-4fc4-a165-17bd8241fb8f",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-tv-box.webp?alt=media&token=faa586d4-55f2-4421-82f7-f6366f4e802e",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tvBox",
@@ -32,7 +32,7 @@ export const categories = [
   {
     _id: 1003,
     name: "Power Tools",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-power-tools.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-power-tools.webp?alt=media&token=9f4a1775-2257-47da-9443-3820cef31cef",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "powerTools",
@@ -40,7 +40,7 @@ export const categories = [
   {
     _id: 1004,
     name: "Headphones",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-headphones.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-headphones.webp?alt=media&token=5660d8f4-e377-42f1-a29e-67abef67ba4c",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "headphones",
@@ -48,7 +48,7 @@ export const categories = [
   {
     _id: 1005,
     name: "Cell Phones",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-cell-phone.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-cell-phone.webp?alt=media&token=33ee71ee-7c95-4fc4-a165-17bd8241fb8f",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "cellPhones",
@@ -56,7 +56,7 @@ export const categories = [
   {
     _id: 1006,
     name: "Smart Watches",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-smart-watches.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-smart-watches.webp?alt=media&token=5ea6a5bc-3cfe-48f8-8da2-3d3f0ac205d3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "smartWatches",
@@ -64,7 +64,7 @@ export const categories = [
   {
     _id: 1007,
     name: "Game & Video",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-game-video.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-game-video.webp?alt=media&token=4d7b3e46-204c-4f7c-862f-e70d52352522",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "gameAndVideo",
@@ -72,7 +72,7 @@ export const categories = [
   {
     _id: 1008,
     name: "Robot Clean",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-robot-clean.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-robot-clean.webp?alt=media&token=bf9cd71f-9326-4f74-a048-02151da34acb",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "robotClean",
@@ -80,7 +80,7 @@ export const categories = [
   {
     _id: 1009,
     name: "Sport Watches",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-sport-watches.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-sport-watches.webp?alt=media&token=3871ee8a-c4e5-4dc3-8b20-6af1d3b07f14",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "sportWatches",
@@ -88,7 +88,7 @@ export const categories = [
   {
     _id: 1010,
     name: "Tablets",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-tablets.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-tablets.webp?alt=media&token=effc46a4-2e9c-4647-a896-6203bf5d28c7",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "tablets",
@@ -96,7 +96,7 @@ export const categories = [
   {
     _id: 1011,
     name: "Computers & Laptop",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-computers-laptop.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-computers-laptop.webp?alt=media&token=4aaa8853-1ff0-4611-a492-aad2f1cff965",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "computersAndLaptop",
@@ -104,7 +104,7 @@ export const categories = [
   {
     _id: 1012,
     name: "Cameras & Photos",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/cat-cameras-audio.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/categories%2Fcat-cameras-audio.webp?alt=media&token=7267b1e7-f7cb-4578-86a2-f8b64282edcd",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore.",
     _base: "camerasAndPhotos",
@@ -117,7 +117,7 @@ export const highlightsProducts = [
     name: "Hot Deals at Lowest Prices",
     title: "From $40.00",
     buttonTitle: "Browse Deals",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Highlights%2Fhighlights-01.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/highlights%2Fhighlights-01.webp?alt=media&token=9a9b0cc0-c3d7-4431-b92e-9e151c15e8e3",
     _base: "/product",
     color: "#000000",
   },
@@ -126,7 +126,7 @@ export const highlightsProducts = [
     name: "Vibrant Meilan Note 6 M6 Smartphone",
     title: "From $85.00",
     buttonTitle: "Shop Cellphones",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Highlights%2Fhighlights-02.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/highlights%2Fhighlights-02.webp?alt=media&token=9e596765-66fe-4c6a-8109-9048b8789836",
     _base: "/category/cellPhones",
     color: "#ffffff",
   },
@@ -135,7 +135,7 @@ export const highlightsProducts = [
     name: "Powerful Detailed Home Speaker",
     title: "From $580.00",
     buttonTitle: "Shop Now",
-    image: "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Highlights%2FKlipsch1.webp?alt=media",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/highlights%2FKlipsch1.webp?alt=media&token=ee2ea0ef-19ae-4022-8885-97529fe49845",
     _base: "/product",
     color: "#ffffff",
   },
@@ -144,7 +144,7 @@ export const highlightsProducts = [
 export const blogsData = [
   {
     _id: 4001,
-    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog1.webp?alt=media&token=e96c3b4a-39f7-44cc-8775-106cab73e2dc",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog3.webp?alt=media&token=29bbc0dc-1e7a-48cf-a516-aa6053941f66",
     title: "iPhone 15 rear camera design will be available",
     _base: "Technology",
     description:
@@ -152,7 +152,7 @@ export const blogsData = [
   },
   {
     _id: 4002,
-    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog2.webp?alt=media&token=fcfbf8d7-f4ab-4a6e-87f9-b2f7ffb626b3",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog1.webp?alt=media&token=e96c3b4a-39f7-44cc-8775-106cab73e2dc",
     title: "Setup your surround sound speaker",
     _base: "Life style",
     description:
@@ -160,7 +160,7 @@ export const blogsData = [
   },
   {
     _id: 4003,
-    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog3.webp?alt=media&token=29bbc0dc-1e7a-48cf-a516-aa6053941f66",
+    image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/blogs%2Fblog2.webp?alt=media&token=fcfbf8d7-f4ab-4a6e-87f9-b2f7ffb626b3",
     title: "Hook up a receiver for your home theater",
     _base: "Technology",
     description:
@@ -173,8 +173,8 @@ export const products = [
     _id: 2001,
     name: "Divoom Tivoo Portable Bluetooth Speaker Smart Clock Alarm Pixel Art DIY By App LED Light Sign In Decoration Unique Gift",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FDivoom1.webp?alt=media",
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FDivoom2.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FDivoom1.webp?alt=media&token=9e547f96-cbb4-4a35-b875-ece11b82c08c",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FDivoom2.webp?alt=media&token=2e075e69-4aee-4f28-8451-4691c85bc15d",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -195,8 +195,8 @@ export const products = [
     _id: 2002,
     name: "Xiaomi Mi Watch Lite GPS Bluetooth 5.1 Smart Watch Sports Fitness Heart Rate Monitor 1.4 Inch TFTLCD Screen 5 ATM Waterproof Mi Band",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FXiaomi1.webp?alt=media",
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FXiaomi2.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FXiaomi1.webp?alt=media&token=2f42f7bd-ac4c-433b-92c9-9eb49f0d35e9",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FXiaomi2.webp?alt=media&token=1f646b7d-9ce8-4e7b-85e0-3cd513cd59b5",
     ],
 
     description:
@@ -218,7 +218,7 @@ export const products = [
     _id: 2003,
     name: "Fitness M3 Color Screen Smart Sport Bracelet Activity Running Tracker Heart Rate For Children Men Women Watch For IOS Android",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FFitnessM3-1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FFitnessM3-1.webp?alt=media&token=21d6c316-d4d9-4dd0-a31a-006af27a4557",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -239,7 +239,7 @@ export const products = [
     _id: 2004,
     name: "SJ8 Air 1290P 4K 60fps Action Camera WIFI Remote Control Waterproof Sports DV FPV Camera",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FSJ8-1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FSJ8-1.webp?alt=media&token=2063a832-09d5-422d-aba4-c7312293b1d3",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -260,7 +260,7 @@ export const products = [
     _id: 2005,
     name: "Redmi Xiaoai Speaker Play 2.4GHz 1.75 Inch Voice Remote Control Music Player Bluetooth 4.2 Mi Speaker For Android Iphone",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FRedmiXiaoai1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FRedmiXiaoai1.webp?alt=media&token=a9018279-6302-4c30-bb21-f07d2a4c5d22",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -281,7 +281,7 @@ export const products = [
     _id: 2006,
     name: "Amazfit GTS 2 Mini Sports Smartwatch GPS Bluetooth 5.0 Female Cycle Tracking Smart Watch For Android iOS Phone – GTS 2 Mini SPAIN",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FAmazfit1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FAmazfit1.webp?alt=media&token=e5a7ea00-9ed7-4d98-a7c8-781d4be3e337",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -302,7 +302,7 @@ export const products = [
     _id: 2007,
     name: "Kinganda BT513 Foldable Bluetooth Headphones With Mic",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FKinganda1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FKinganda1.webp?alt=media&token=7f490456-ab9d-46b7-806b-9dc02bca6e90",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -323,7 +323,7 @@ export const products = [
     _id: 2008,
     name: "New Product Form Lapbook Light Handlift Business Office Game Ben EDP 13.5 In – Black China",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FNewProduct1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FNewProduct1.webp?alt=media&token=fccd5a65-dd7d-432a-9370-74695df3a8a4",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -344,7 +344,7 @@ export const products = [
     _id: 2009,
     name: "VIOMI V2 Pro LDS Sensor 2 In 1 Sweeping Mopping Robot Wet And Dry Vacuum Cleaner 2100Pa Strong Suction Self-Charging",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FVIOMI1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FVIOMI1.webp?alt=media&token=6d6046dd-63c0-4eb1-96d4-056e78f3ff71",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -365,7 +365,7 @@ export const products = [
     _id: 2010,
     name: "Global Version Redmi Note 9 Pro 6GB RAM 64GB ROM Smartphone Mobile Phone",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FGlobal1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FGlobal1.webp?alt=media&token=4b494e8c-8eba-43e6-8493-862444001ee0",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -386,7 +386,7 @@ export const products = [
     _id: 2011,
     name: "DIDSeth Pan Tilt Security Light Camera Full HD 1080P Wireless Wi-Fi IP Camera Home Dome Surveillance Cameras",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FDIDSeth1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FDIDSeth1.webp?alt=media&token=c4f2e27b-cf41-4860-8ce7-5f97b32df367",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -407,7 +407,7 @@ export const products = [
     _id: 2012,
     name: "Electric Hot Melt Glue Gun Cordless Repair DIY Tool Heating Mini Glue Gun With Glue Sticks",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FElectric1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FElectric1.webp?alt=media&token=6f6d588a-1c8d-42ab-b19f-4219025e6c22",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -428,7 +428,7 @@ export const products = [
     _id: 2013,
     name: "MECOOL KH3 Android 10.0 Smart 4K 60fps TV Box – Black 2GB RAM + 16GB ROM",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FMECOOL1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FMECOOL1.webp?alt=media&token=7b7e3d01-55c3-4c7e-9cbc-7c552af14670",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -449,7 +449,7 @@ export const products = [
     _id: 2014,
     name: "Sony PS4 Controller Bluetooth Vibration Gamepad For Playstation 4 Detroit Wireless Joystick For PS4 Games Consol",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FSony1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FSony1.webp?alt=media&token=145b552f-297e-48d2-9793-f9623f7a423b",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -470,7 +470,7 @@ export const products = [
     _id: 2015,
     name: "GSR 120-Li Hand Drill 12V Lithium Drill Household Power Tool Screwdriver With One Battery – GSR120-LI 1Battery",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FGSR1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FGSR1.webp?alt=media&token=03d8071e-635a-4397-bb3d-95e006328ee9",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -491,7 +491,7 @@ export const products = [
     _id: 2016,
     name: "Xiaomi Mi Outdoor Speaker Bluetooth 5.0 IP55 Waterproof Dustproof Portable Wireless Speaker",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FXiaomiMi1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FXiaomiMi1.webp?alt=media&token=5b9349df-34fb-4087-95a0-59cb3d1df6d8",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -512,7 +512,7 @@ export const products = [
     _id: 2017,
     name: "Global Version Mi TV Stick Android TV 9.0 Smart 2K HDR 1GB RAM 8GB ROM Bluetooth 4.2 Mini TV Dongle",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FGlobalStick1.webp?alt=media&token=227840f2-2910-4503-b08b-44a9a9c68664",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FGlobalStick1.webp?alt=media&token=26c9786a-0f6f-4526-b256-c1616d7dfe5a",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -533,7 +533,7 @@ export const products = [
     _id: 2018,
     name: "Xiaomi Mijia LCD Writing Tablet With Pen 10 13.5inch Digital Drawing Message Graphics Electronic Handwriting Pad With Pen",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FXiaomiTablet1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FXiaomiTablet1.webp?alt=media&token=3ca2cca6-62c3-4d5b-a7b1-d7917724bf94",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -554,7 +554,7 @@ export const products = [
     _id: 2019,
     name: "New Creative Cloth Art Home Outdoors Bluetooth Sound Box",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FNewCloth1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FNewCloth1.webp?alt=media&token=566815ed-17a6-4f87-b2d3-3b3576c9793b",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -575,7 +575,7 @@ export const products = [
     _id: 2020,
     name: "Global Version Mi MIX4 Camera Face Recognition Fingerprint Unlock Phone 7.3 inch 16GB+1T Android 12 4G/5G 48MP+72M – 8GB 512GB",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FGlobalMi1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FGlobalMi1.webp?alt=media&token=927c56f9-d5b1-4acd-b697-8244e19822b0",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -596,7 +596,7 @@ export const products = [
     _id: 2021,
     name: "L21 Bluetooth Earphone Wireless Earbuds 5.0 TWS Headsets Dual Earbuds Bass Sound For Huawei Xiaomi IPhone Samsung Mobile Phones",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FL21Bluetooth1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FL21Bluetooth1.webp?alt=media&token=e9efe076-dc5a-42fa-a56d-915519cce2e9",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -617,7 +617,7 @@ export const products = [
     _id: 2022,
     name: "Roborock S7 Robot Vacuum Cleaner For Home Sonic Mopping Ultrasonic Carpet Clean Alexa Mop Lifting Upgrade For S5 Max",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FRoborock1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FRoborock1.webp?alt=media&token=b6ad3e12-3646-480c-bbf6-b9603f028d3d",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -638,7 +638,7 @@ export const products = [
     _id: 2023,
     name: "Klipsch R-120SW Powerful Detailed Home Speaker – Unit",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FKlipsch1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FKlipsch1.webp?alt=media&token=516a3d2d-4f17-484b-b22c-fde00be46b4f",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -659,7 +659,7 @@ export const products = [
     _id: 2024,
     name: "ZY418 Ultra-Thin Sport MP3 MP4 Music Player",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FZY418Ultra1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FZY418Ultra1.webp?alt=media&token=4f610b98-a640-46d0-92c7-9f97b1b6c1c0",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -680,7 +680,7 @@ export const products = [
     _id: 2025,
     name: "Teclast M40 10.1 inch Android 10.0 Tablet PC UNISOC T618 Octa Core 6GB RAM 128GB ROM 4G LTE Full HD",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FTeclast1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FTeclast1.webp?alt=media&token=ea97b853-63df-45d1-b6d7-60b3865fdd62",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
@@ -701,7 +701,7 @@ export const products = [
     _id: 2026,
     name: "Xiaomi Soundbar 2.0ch Wireless Speaker Bluetooth 5.3",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FXiaomiSoundbar.avif?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FXiaomiSoundbar.avif?alt=media&token=c0a97878-5c55-4ebf-a2a8-af5ea9081926",
     ],
     description:
       "Xiaomi 2-channel sound bar. A sleek and minimalist TV companion. Elegant look. Black and slim with a matte finish. Full-range speakers. 2 x 15W racetrack speakers",
@@ -722,7 +722,7 @@ export const products = [
     _id: 2027,
     name: "Meilan Note 6 M6 Smartphone Global ROM 5.5 Inch Dual Rear Camera",
     images: [
-      "https://firebasestorage.googleapis.com/v0/b/supergear-f2ce6.firebasestorage.app/o/Products%2FMeizu1.webp?alt=media",
+      "https://firebasestorage.googleapis.com/v0/b/ecommerce-c486c.firebasestorage.app/o/products%2FMeizu1.webp?alt=media&token=216343b8-12d0-4d38-986c-0b7ad887475d",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",

@@ -51,7 +51,7 @@ const Login = ({ setLogin }: { setLogin: any }) => {
             Registration Form
           </h2>
           <p className="mt-1 text-sm leading-6 text-gray-400">
-            You need to provide required information to get register with us.
+            You need to provide required information to register with us.
           </p>
         </div>
         <div className="border-b border-b-white/10 pb-5">

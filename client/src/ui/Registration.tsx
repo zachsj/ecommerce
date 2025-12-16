@@ -34,9 +34,9 @@ const Registration = () => {
       setLoading(true);
       const res = await createUserWithEmailAndPassword(auth, email, password);
       let imageUrl = null;
-      if (avatar && avatar?.file) {
-        imageUrl = await upload(avatar?.file);
-      }
+      //if (avatar && avatar?.file) {
+      //  imageUrl = await upload(avatar?.file);
+      //}
       await setDoc(doc(db, "users", res.user.uid), {
         firstName,
         lastName,
@@ -82,7 +82,7 @@ const Registration = () => {
                 Registration Form
               </h2>
               <p className="mt-1 text-sm leading-6 text-gray-400">
-                You need to provide required information to get register with
+                You need to provide required information to register with
                 us.
               </p>
             </div>
@@ -170,9 +170,8 @@ const Registration = () => {
             <button
               disabled={loading}
               type="submit"
-              className={`mt-5 w-full py-2 uppercase text-base font-bold tracking-wide text-gray-300 rounded-md hover:text-white hover:bg-indigo-600 duration-200 ${
-                loading ? "bg-gray-500 hover:bg-gray-500" : "bg-indigo-700"
-              }`}
+              className={`mt-5 w-full py-2 uppercase text-base font-bold tracking-wide text-gray-300 rounded-md hover:text-white hover:bg-indigo-600 duration-200 ${loading ? "bg-gray-500 hover:bg-gray-500" : "bg-indigo-700"
+                }`}
             >
               {loading ? "Loading..." : "Send"}
             </button>
