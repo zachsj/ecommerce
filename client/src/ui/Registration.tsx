@@ -59,7 +59,7 @@ const Registration = () => {
           break;
         // Add more cases as needed
         default:
-          errorMessage = "An error occurred. Please try again.";
+          errorMessage = error.message || "Unexpected error occurred";
       }
       console.log("Error", error);
       setErrMsg(errorMessage);
